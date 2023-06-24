@@ -14,11 +14,10 @@ class ConfigSize {
       screenHeight =MediaQuery.of(context).size.height;
       screenWidth=MediaQuery.of(context).size.width;
       orientation=MediaQuery.of(context).orientation;
-      defaultSize = orientation ==Orientation.landscape? screenHeight! *.024 :screenWidth! *.024 ;
+      defaultSize = orientation ==Orientation.landscape? screenHeight! *.024 :screenWidth! *.025 ;
 
     }
     print('this is default size for that device is $defaultSize');
-    //ff
   }
 
 
