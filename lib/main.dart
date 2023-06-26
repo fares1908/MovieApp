@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:movie_appp/movies/domain/entities/movie.dart';
 
-import 'movies/presentation/pages/home_scareen.dart';
+import 'movies/presentation/pages/movie_scareen.dart';
 
 void main() {
   runApp(const MyApp());
