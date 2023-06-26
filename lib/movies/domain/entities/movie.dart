@@ -6,7 +6,7 @@ class Movie extends Equatable {
   final String backdropPath;
   final List<int> genderId;
   final String overview;
-  final double voteAverage;
+  final String voteAverage;
   final String releaseDate;
 
   const Movie({
@@ -15,7 +15,7 @@ class Movie extends Equatable {
     required this.backdropPath,
     required this.genderId,
     required this.overview,
-    required this.voteAverage,
+    required this.voteAverage ,
     required this.releaseDate
   });
 
