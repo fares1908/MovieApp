@@ -19,7 +19,7 @@ class MoviesScreen extends StatelessWidget {
       return MoviesBloc()..add(GetNowPlayingMoviesEvent());
     }, child: BlocBuilder<MoviesBloc , MoviesState>(
       builder: (context, state) {
-        print(state);
+
         return const Scaffold();
       },
     ));
