@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:movie_appp/core/services/servicesLocator.dart';
 import 'package:movie_appp/movies/domain/entities/movie.dart';
 
 import 'movies/presentation/pages/movie_scareen.dart';
 
 void main() {
+  ServicesLocator().inti();
   runApp(const MyApp());
 
 }
